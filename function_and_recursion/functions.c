@@ -10,3 +10,4 @@ int main(){
 void printHello(){
     printf("hello world"); //function definition
 }
+
