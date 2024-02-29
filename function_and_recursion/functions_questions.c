@@ -90,3 +90,20 @@
 //     int area = x * y;
 //     printf("the area of the rectangle is: %d \n", area);
 // }
+
+// write a function to convert celsius to farenheit
+
+// #include <stdio.h>
+// float cTof(float c);
+// int main(){
+//     float c;
+//     printf("enter in celcius: ");
+//     scanf("%f \n",&c);
+//     printf("value in farenheit %f \n",cTof(c));
+//     return 0;
+// }
+
+// float cTof(float c){
+//      float f= 1.8*c +32;
+//      return f;
+// }
