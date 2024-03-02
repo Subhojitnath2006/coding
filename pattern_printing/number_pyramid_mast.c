@@ -7,15 +7,15 @@ int main()
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
-        for (int j = (n - i); j >= 1; j--)
+        for (int j = (n - i); j >= 1; j--) // spaces ke liye loop
         {
             printf("  ");
         }
-        for (int j = 1; j <= i; j++)
+        for (int j = 1; j <= i; j++) // simple number triangle
         {
             printf("%d ", j);
         }
-        for (int k = 1; k <= (i - 1); k++)
+        for (int k = 1; k <= (i - 1); k++) //extra things ke liye loop
         {
             printf("%d ", k);
         }
