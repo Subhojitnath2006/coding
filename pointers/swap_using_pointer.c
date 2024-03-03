@@ -20,7 +20,7 @@ int main()
     // int *x=&n;
     // int *y=&m;
 
-    swap(&n, &m);
+    swap(&n, &m);  //pass by reference.
     printf("the value if n is: %d \n",n );
     printf("the value if m is: %d \n", m);
 
