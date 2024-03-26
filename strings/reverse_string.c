@@ -6,15 +6,16 @@ int main(){
     puts("enter a string");
     gets(str);
 
-    puts("the size is:");
+    
+    
     int size=0;
     int k=0;
     while(str[k]!='\0'){
         size++;
         k++;
     }
-    int j=size-1;
-   for(int i=0;j=size-1;i<=j;i++;j--){
+    
+   for(int i=0,j=size-1;i<=j;i++,j--){
     char temp=str[i];
     str[i]=str[j];
     str[j]=temp;
